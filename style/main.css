@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("../fonts/PlusJakartaSans-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("../fonts/PlusJakartaSans-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("../fonts/PlusJakartaSans-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-ExtraBold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.ttf");
+  font-weight: 500;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1338px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: "PlusJakartaSans";
+  font-weight: 400;
+}
+
+.header {
+  margin-top: 48px;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.header-nav-logo {
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header-nav-logo__ai {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(308deg, #A7F306 2.04%, #F3CD06 98.59%);
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  font-family: "PlusJakartaSans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-nav-list__link {
+  color: rgba(255, 255, 255, 0.5);
+}
+.header-nav-auth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-content {
+  margin-top: 112px;
+}
+.header-content__title {
+  font-size: 120px;
+  font-family: Raleway;
+  font-weight: 800;
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(90deg, #FFF 0.01%, rgba(255, 255, 255, 0.3) 49.48%, #FFF 99.99%);
+}
+.header-content__title_color_gradient {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(308deg, #A7F306 2.04%, #F3CD06 98.59%);
+}
+.header-content-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.header-content__box_left {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+.header-content__box-static {
+  padding: 30px 63px 30px 32px;
+  border-radius: 32px;
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+}/*# sourceMappingURL=main.css.map */

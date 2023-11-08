@@ -1,0 +1,25 @@
+$PlusJakartaSans: ('Medium', 500), ('Regular', 400), ('SemiBold', 600);
+
+@each $name, $weight in $PlusJakartaSans {
+    @font-face {
+        font-family: 'PlusJakartaSans';
+        src: url('../fonts/PlusJakartaSans-#{$name}.ttf');
+        font-weight: $weight;
+    }
+}
+
+$Raleway: ('Medium', 500), ('ExtraBold', 800), ('Regular', 400), ('SemiBold', 600);
+
+@each $name, $weight in $Raleway {
+    @font-face {
+        font-family: 'Raleway';
+        src: url('../fonts/Raleway-#{$name}.ttf');
+        font-weight: $weight;
+    }
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.ttf');
+    font-weight: 500;
+}
